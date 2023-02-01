@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RahmaniaSahidur</title>
+        <style>
+            h1 {text-align: center; color: green;}
+            
+            div {
+  border-radius: 5px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+}   
+input, select {
+    width: 200px;
+    
+    padding: 20px 30px;
+    display: inline-block;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+input [type=submit] {
+    width: 100%;
+    background: darkgreen;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input [type=submit]:hover {
+    background: white;
+
+}
+
+        </style>
+    </head>
+    <body>
+        <h1><u>Shikbe Sobai Registration Form</u></h1>
+        <p style="text-align: center; color: red;"><i>The largest IT unistitute in Bangladesh.</i></p>
+
+         <div>
+        <form>
+
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+            <label for="postcode">Postal Code:</label>
+            <input type="text" id="postcode" value="12052"><br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="text" id="email" value="ex:myname@example.com">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <label for="telephone">Telephone Number:</label>
+            <input type="text" id="telephone" value="02876698"><br><br>
+
+            <label for="city">Please, choose the City:</label>
+            <select name="city" id="city">
+                <option value="Dhaka">Dhaka</option>
+                <option value="Khulna">Khulna</option>
+                <option value="Cumilla">Cumilla</option>
+                <option value="Chittaganj">Chittaganj</option>
+                <option value="Barishal">Barishal</option>
+            </select><br><br>
+
+            <label for="qualifications">Previous Qualifications:</label>
+            <select name="qualifications" id="qualifications">
+                <option value="SSC">SSC</option>
+                <option value="HSC">HSC</option>
+                <option value="Honours">Honours</option>
+                <option value="Masters">Masters</option>
+            </select><br><br>
+
+             <label for="course">Please, choose the course you want to get admission:</label>
+            <select name="course" id="course">
+                <option value="Web Development">Web Development</option>
+                <option value="Grafics Design">Grafics Design</option>
+                <option value="Python Course">Python Course</option>
+                <option value="UI/UX">UI/UX</option>
+
+            </select><br><br>
+            <p>Select the payment method for paying course fee:</p>
+            
+            <input type="radio" id="Cash" name="payment" value="Cash">
+            <label for="cash">Cash</label>
+            <input type="radio" name="payment" id="Card" value="Card">
+            <label for="card">Card</label>
+            <input type="radio" name="payment" id="paypal" value="Paypal">
+            <label for="paypal">Paypal</label>
+            <input type="radio" id="bank transfer" name="payment" value="Bank Transfer">
+            <label for="Bank Transfer">Bank Transfer</label>
+            <input type="radio" id="cheque" name="payment" value="Cheque">
+            <label for="cheque">Cheque</label><br><br>
+
+            <label for="submit">Click the submit button to submit the form:</label>
+            <input type="submit" value="Submit">
+            </form>
+            
+
+    
+        </div>
+        
+
+
+        </body>
+</html>
